@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "stop": "forever stopall",
-        "start": "forever start -c 'node -r ts-node/register' index.ts",
+        "start": "forever start -c 'node -r ts-node/register' src/index.ts",
         "tsc": "tsc"
     },
     "repository": {
