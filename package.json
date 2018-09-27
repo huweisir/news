@@ -1,28 +1,31 @@
 {
-  "name": "news",
-  "version": "1.0.0",
-  "description": "aliyun-project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/huweisir/news.git"
-  },
-  "author": "huwei",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/huweisir/news/issues"
-  },
-  "homepage": "https://github.com/huweisir/news#readme",
-  "dependencies": {
-    "@types/koa": "^2.0.46",
-    "@types/node": "^10.11.0",
-    "ts-node": "^7.0.1",
-    "typescript": "^3.0.3"
-  },
-  "devDependencies": {
-    "koa": "^2.5.3"
-  }
+    "name": "news",
+    "version": "1.0.0",
+    "description": "aliyun-project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "forever-start": "forever start",
+        "tsc": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/huweisir/news.git"
+    },
+    "author": "huwei",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/huweisir/news/issues"
+    },
+    "homepage": "https://github.com/huweisir/news#readme",
+    "dependencies": {
+        "@types/koa": "^2.0.46",
+        "@types/node": "^10.11.0",
+        "ts-node": "^7.0.1",
+        "typescript": "^3.0.3"
+    },
+    "devDependencies": {
+        "@types/mocha": "^5.2.5",
+        "koa": "^2.5.3"
+    }
 }
